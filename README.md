@@ -1,4 +1,4 @@
-# comicbook-guy
+# Comicbook Guy
 
 A small helper to organise comic book files dropped into a watched inbox. Files are inspected (via ComicBox), metadata is extracted, a destination folder is built (Series[/Volume] / Filename) and the file is moved into the library.
 
