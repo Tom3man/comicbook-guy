@@ -1,5 +1,5 @@
 [project]
-name = "comicbook-guy"
+name = "comicbookguy"
 version = "1.0.0"
 description = "A helper tool to organise and monitor comic book directories"
 authors = [
