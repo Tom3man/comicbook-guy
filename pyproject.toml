@@ -1,6 +1,6 @@
 [project]
 name = "comicbookguy"
-version = "1.0.0"
+version = "1.0.1"
 description = "A helper tool to organise and monitor comic book directories"
 authors = [
     {name = "Tom Freeman", email = "tomrfreeman3@gmail.com"}
@@ -18,7 +18,7 @@ dependencies = [
 ]
 
 [project.scripts]
-elibrarian = "comicbookguy.main:main"
+comicbookguy = "comicbookguy.main:main"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
