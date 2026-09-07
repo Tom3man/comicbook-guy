@@ -33,7 +33,6 @@ def restructure_file(
         # Don't overwrite an existing comic
         if destination_folder.exists():
             log.warning("Destination already exists: %s", destination_folder)
-            return None
 
         # Ensure destination directory exists
         destination_folder.mkdir(parents=True, exist_ok=True)
